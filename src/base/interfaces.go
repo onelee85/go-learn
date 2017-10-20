@@ -25,7 +25,7 @@ type circle struct {
 	radius float64
 }
 
-func (c *circle) area() float64 {
+func (c *circle) area() float64 { //指针类型
 	return math.Pi * c.radius * c.radius
 }
 
